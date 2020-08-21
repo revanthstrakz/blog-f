@@ -10,8 +10,8 @@ try {
 } catch (e) {
     ghostConfig = {
         production: {
-            apiUrl: process.env.GHOST_API_URL,
-            contentApiKey: process.env.GHOST_CONTENT_API_KEY,
+            apiUrl: 'https://revanth.glitch.me',
+            contentApiKey: '41a159cd066fa963ea57be7a06',
         },
     }
 } finally {
